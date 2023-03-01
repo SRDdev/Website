@@ -19,6 +19,7 @@ const ProjectItem = ({title, backgroundImg, projectUrl,description}) => {
       <div className='my-[-100px] hidden group-hover:block'>
           <h3 className='text-center text-white'>{title}</h3>
           <p className='p-4 text-center text-white'>{description}</p>
+          <h3 className='p-1 text-center text bg-white w-fit m-auto' style={{borderRadius:"1rem"}}>More Information</h3>
         </div>
       </div>
   )

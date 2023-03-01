@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
+import Image from 'next/image'
+import hugging from '../public/assets/huggingface.png'
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
@@ -45,7 +47,7 @@ const Main = () => {
               rel='noreferrer'
             >
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <FontAwesomeIcon icon="fa-duotone fa-face-smiling-hands" />
+                <Image src={hugging} height="20px" width="20px"/>
               </div>
             </a>
             <Link href='/#contact'>

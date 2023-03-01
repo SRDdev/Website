@@ -9,7 +9,7 @@ import google from '../public/assets/skills/google.png'
 
 const Skills = () => {
   return (
-    <div id='skills' className='w-full h-full' style={{backgroundColor:"#ffff"}}>
+    <div id='skills' className='w-full h-full mb-[100px]' style={{backgroundColor:"#ffff"}}>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
       <h2 className='py-4'>Certificates & Experience</h2>
         <p className='text-xl tracking-widest uppercase text-[#ff9100] p-4'>

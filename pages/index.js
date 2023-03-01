@@ -9,7 +9,7 @@ import Research from '../components/Research'
 
 export default function Home() {
   return (
-    <div>
+    <div style={{backgroundColor:"#ffffff"}}>
       <Head>
         <title>Shreyas Dixit</title>
         <meta name="description" content=" " />
@@ -21,7 +21,7 @@ export default function Home() {
     <Skills />
     <Projects />
     <Research />
-    <Contact />
+    {/* <Contact /> */}
     </div>
   )
 }
