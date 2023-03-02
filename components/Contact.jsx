@@ -6,11 +6,46 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import ContactImg from '../public/assets/contact.jpg';
+import News from '../public/assets/projects/news.png'
 
 const Contact = () => {
   return (
     <div id='contact' className='w-full h-full' style={{backgroundColor:"#ffffff"}}>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
+          <div className='text-black'>
+            <h2>News Letter</h2>
+          </div>
+        <div className='grid lg:grid-cols-2 gap-8 mb-[150px]'>
+          <div className='text-justify mt-5 text-grey-700'>
+            <p>Welcome to the Productivity Pro newsletter!
+
+As a subscriber, you'll receive regular updates and insights on the latest productivity strategies and tools. Our team of experts is constantly researching and testing new techniques to help you get more done in less time, and we can't wait to share them with you.
+
+In each newsletter, you'll find:
+
+Productivity tips and tricks: From time management techniques to task prioritization strategies, we'll share practical advice you can use to boost your productivity.
+Resource round-ups: Looking for the best productivity apps or tools? We'll highlight the ones we've found most helpful and share our insights on how to use them effectively.
+Productivity success stories: Hear from real people who have used our strategies and tools to transform their workflows and achieve their goals.
+Exclusive offers and discounts: As a subscriber, you'll get access to special deals and discounts on our products and services.
+So if you're ready to take control of your time and boost your productivity, sign up for the Productivity Pro newsletter today!
+
+Join 150+ Members who are getting Productive
+<br/>
+<div className='grid grid-cols-2 gap-0'>
+  <div>
+  <a href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7015550296219119616"><h3 className='text-white text-center p-2 m-auto mt-5 w-fit'style={{backgroundColor:"blue",borderRadius:"1.25rem"}}>Subscribe on LinkedIn</h3></a>
+  </div>
+  <div>
+  <a href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7015550296219119616"><h3 className='text-white text-center p-2 m-auto mt-5 w-fit'style={{backgroundColor:"gray",borderRadius:"1.25rem"}}>Checkout ProductivityPro</h3></a>
+  </div>
+</div>
+<br />
+</p>
+          </div>
+          <div className='m-auto'>
+            <Image src={News} height="300px" width="300px"/>
+          </div>
+        </div>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Contact
         </p>
@@ -27,11 +62,11 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className='py-2'>Clint Briley</h2>
-                <p>Front-End Developer</p>
+                <h2 className='py-2'>Shreyas Dixit</h2>
+                <p>Student Developer</p>
                 <p className='py-4'>
-                  I am available for freelance or full-time positions. Contact
-                  me and let&apos;s talk.
+                  I am available for Research Intern position or full-time positions.<br/>
+                  Contact me and let&apos;s talk.
                 </p>
               </div>
               <div>
