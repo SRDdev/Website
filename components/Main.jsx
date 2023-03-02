@@ -45,7 +45,7 @@ const Main = () => {
               rel='noreferrer'
             >
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:bg-gradient-to-r from-[#ff9100] to-[#ffb24d] hover:scale-110 ease-in duration-300'>
-                <Image src={hugging} height="20px" width="20px"/>
+                <Image src={hugging} height="20px" width="20px" alt="/"/>
               </div>
             </a>
             <Link href='/#contact'>

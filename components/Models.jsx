@@ -13,7 +13,7 @@ const Models = () => {
         <div id='Models' className='w-full h-full mb-[150px]' style={{backgroundColor:"#ffff"}}>
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
             <p className='text-[#ff9100]'></p>
-            <h2 className='py-4'><Image src={modelimage} height="30px" width="30px" /> Open Source Models </h2>
+            <h2 className='py-4'><Image src={modelimage} height="30px" width="30px" alt="/" /> Open Source Models </h2>
             <p>I am generally interested in the area of Deep learning.More specifically in language and vision modalities.I enjoy implementing research ideas, sometimes incorporating them into practical applications, and communicating my implementation details through open source models.</p>
             <p>More models comming soon...</p>
             <br/><br/>
@@ -24,10 +24,10 @@ const Models = () => {
             <div className="flex flex-col hover:text-white">
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
             <h3 className="p-1 text-xl">ScriptGPT</h3>
-            <Image src={script} height="25px" width="25px" />
+            <Image src={script} height="25px" width="25px" alt="/" />
             </div>
                 <p className="p-1 text-sm">ScriptGPT is a GPT model built to generate Youtube Scripts. The current version is a smaller version based on few videos.</p>
-                <h4 className="p-1 " style={{textAlign: "center",width:"fit-content"}}><a href="https://huggingface.co/SRDdev/Script_GPT" target="_blank">Try Model <Image src={try_image} height="15px" width="15px" /></a></h4>
+                <h4 className="p-1 " style={{textAlign: "center",width:"fit-content"}}><a href="https://huggingface.co/SRDdev/Script_GPT" target="_blank" rel="noreferrer">Try Model <Image src={try_image} height="15px" width="15px" alt="/" /></a></h4>
             </div>
             </div>
             </div>
@@ -37,10 +37,10 @@ const Models = () => {
             <div className="flex flex-col hover:text-white">
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <h3 className="p-1 text-xl">QABERT small</h3>
-                <Image src={qaimage} height="25px" width="25px" />
+                <Image src={qaimage} height="25px" width="25px" alt="/" />
                 </div>
                 <p className="p-1 text-sm">QA-BERT is a Question Answering Model. This model is a lighter version of any of the question-answering models out there</p>
-                <h4 className="p-1 " style={{textAlign: "center",width:"fit-content"}}><a href="https://huggingface.co/SRDdev/QABERT-small" target="_blank">Try Model <Image src={try_image} height="15px" width="15px" /></a></h4>
+                <h4 className="p-1 " style={{textAlign: "center",width:"fit-content"}}><a href="https://huggingface.co/SRDdev/QABERT-small" target="_blank" rel="noreferrer">Try Model <Image src={try_image} height="15px" width="15px" alt="/" /></a></h4>
             </div>
             </div>
             </div>
@@ -50,10 +50,10 @@ const Models = () => {
             <div className="flex flex-col hover:text-white">
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
             <h3 className="p-1 text-xl">HingMaskedLM</h3>
-            <Image src={maskimage} height="25px" width="25px" />
+            <Image src={maskimage} height="25px" width="25px" alt="/" />
             </div>
                 <p className="p-1 text-sm">Hinglish MaskedLM is a Masked Language Model.This model is custom trained on Hinglish Data. Hinglish is a combination of Hindi & English</p>
-                <h4 className="p-1 " style={{textAlign: "center",width:"fit-content"}}><a href="https://huggingface.co/SRDdev/HingMaskedLM" target="_blank">Try Model <Image src={try_image} height="15px" width="15px" /></a></h4>
+                <h4 className="p-1 " style={{textAlign: "center",width:"fit-content"}}><a href="https://huggingface.co/SRDdev/HingMaskedLM" target="_blank" rel="noreferrer">Try Model <Image src={try_image} height="15px" width="15px" alt="/"/></a></h4>
             </div>
             </div>
             </div>
