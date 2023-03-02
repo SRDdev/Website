@@ -12,6 +12,7 @@ const Models = () => {
         <>
         <div id='Models' className='w-full h-full mb-[150px]' style={{backgroundColor:"#ffff"}}>
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
+            <p className='text-[#ff9100]'></p>
             <h2 className='py-4'><Image src={modelimage} height="30px" width="30px" /> Open Source Models </h2>
             <p>I am generally interested in the area of Deep learning.More specifically in language and vision modalities.I enjoy implementing research ideas, sometimes incorporating them into practical applications, and communicating my implementation details through open source models.</p>
             <p>More models comming soon...</p>

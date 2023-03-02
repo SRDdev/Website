@@ -32,7 +32,7 @@ const Skills = () => {
         <div className="p-0 shadow-xl hover:scale-105 ease-in duration-300" data-sr-id="17" style={{borderRadius:"1.5rem",visibility: "visible", opacity: 1}}>
         <div className="p-4" style={{borderTopRightRadius:"1.5rem",borderTopLeftRadius:"1.5rem",background: " #f2f2f2"}}>
           <div className="flex flex-col items-center justify-center">
-            <h3 className="text" style={{fontSize:"22px"}}>TensorFlow Developer Certificate</h3>
+            <h3 className="text-left" style={{fontSize:"22px"}}>TensorFlow Developer Certificate</h3>
           </div>
         </div>
         <div className="p-4 shadow-xl rounded-xl"style={{borderRadius:"1.5rem"}}>
@@ -45,7 +45,7 @@ const Skills = () => {
         <div className="p-0 shadow-xl hover:scale-105 ease-in duration-300" data-sr-id="17" style={{borderRadius:"1.5rem",visibility: "visible", opacity: 1}}>
         <div className="p-4" style={{borderTopRightRadius:"1.5rem",borderTopLeftRadius:"1.5rem",background: " #f2f2f2"}}>
           <div className="flex flex-col items-center justify-center">
-            <h3 className="text" style={{fontSize:"22px"}}>Custom Models, Layers Loss Functions with TensorFlow</h3>
+            <h3 className="text-left" style={{fontSize:"22px"}}>Custom Models, Layers Loss Functions with TensorFlow</h3>
           </div>
         </div>
         <div className="p-4 shadow-xl rounded-xl"style={{borderRadius:"1.5rem"}}>
@@ -57,7 +57,7 @@ const Skills = () => {
 
         <div className="p-0 shadow-xl hover:scale-105 ease-in duration-300" data-sr-id="17" style={{borderRadius:"1.5rem",visibility: "visible", opacity: 1}}>
         <div className="p-4" style={{borderTopRightRadius:"1.5rem",borderTopLeftRadius:"1.5rem",background: " #f2f2f2"}}>
-          <div className="flex flex-col items-center justify-center"style={{height:"65px"}}>
+          <div className="flex flex-col justify-center"style={{height:"65px"}}>
             <h3 className="text" style={{fontSize:"22px"}}>Sequence Models</h3>
           </div>
         </div>
@@ -96,7 +96,7 @@ const Skills = () => {
 
         <div className="p-0 shadow-xl hover:scale-105 ease-in duration-300" data-sr-id="17" style={{borderRadius:"1.5rem",visibility: "visible", opacity: 1}}>
         <div className="p-4" style={{borderTopRightRadius:"1.5rem",borderTopLeftRadius:"1.5rem",background: "#f2f2f2"}}>
-          <div className="flex flex-col items-center justify-center"style={{height:"65px"}}>
+          <div className="flex flex-col justify-center"style={{height:"65px"}}>
             <h3 className="text" style={{fontSize:"22px"}}>Google Project Management</h3>
           </div>
         </div>

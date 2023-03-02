@@ -7,8 +7,6 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-
-
 const Main = () => {
   return (
     <div id='home' className='w-full h-screen text-center' style={{backgroundColor:"#ffffff"}}>
@@ -17,9 +15,9 @@ const Main = () => {
           <p className='uppercase text-sm tracking-widest text-gray-600'>
             BUILDING ML AS PASSION 
           </p><br></br><br></br>
-          <h1 className='py-1 text-[#425066]' style={{ fontFamily: 'SF Pro Display, sans-serif' }}>Shreyas Dixit</h1>
-          <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto' >
-          Student Researcher | Deep Learning | Joint Technical Head @SEC VIIT | ML Developer @MLSC VIIT 
+          <h1 className='py-1 ' style={{ fontFamily: 'SF Pro Display, sans-serif' }}>Shreyas Dixit</h1>
+          <p className='py-4 text-gray-600 sm:max-w-[75%] m-auto' >
+          Student Researcher | Deep Learning | Joint Technical Head @SEC VIIT  ML Developer @MLSC VIIT 
           </p>
           <div className='flex items-center justify-between max-w-[430px] m-auto py-4'>
             
@@ -55,7 +53,7 @@ const Main = () => {
                 <AiOutlineMail />
               </div>
             </Link>
-            <Link href='/resume'>
+            <Link href="#">
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:bg-gradient-to-r from-[#ff9100] to-[#ffb24d] hover:scale-110 ease-in duration-300'>
                 <BsFillPersonLinesFill />
               </div>

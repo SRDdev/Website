@@ -5,9 +5,9 @@ import research from './researchitem'
 const Research = () => {
     return(
         <>
-        <div id='projects' className='w-full h-full' style={{backgroundColor:"#ffffff"}}>
+        <div id='research' className='w-full h-full' style={{backgroundColor:"#ffffff"}}>
             <div className='max-w-[1240px] mx-auto px-2 py-10'>
-                <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Conference ,Talks & Other</p>
+                <p className='text-xl tracking-widest uppercase text-[#ff9100]'>Conference ,Talks & Other</p>
                 <h2 className='py-4 pb-0 mb-0'>Research Papers</h2>
             </div>
             <div className='grid md:grid-cols-1 p-0'>

@@ -14,7 +14,7 @@ const Projects = () => {
   return (
     <div id='projects' className='w-full h-full' style={{backgroundColor:"#ffffff"}}>
       <div className='max-w-[1240px] mx-auto px-2 py-16 mb-[32px]'>
-        <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
+        <p className='text-xl tracking-widest uppercase text-[#ff9100]'>
           Projects
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
