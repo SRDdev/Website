@@ -1,9 +1,5 @@
 import Image from 'next/image';
 import React from 'react';
-import Python from '../public/assets/skills/python.png';
-import Keras from '../public/assets/skills/Keras.png';
-import Tensorflow from '../public/assets/skills/tensorflow.png';
-import Pytorch from '../public/assets/skills/Pytorch.png';
 import dpai from '../public/assets/skills/dpai.png';
 import google from '../public/assets/skills/google.png'
 

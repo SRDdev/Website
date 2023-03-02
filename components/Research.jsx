@@ -1,6 +1,4 @@
-import Link from 'next/link';
-import React from 'react';
-import research from './researchitem'
+import React from 'react'
 
 const Research = () => {
     return(

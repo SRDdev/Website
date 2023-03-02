@@ -5,7 +5,6 @@ import hugging from '../public/assets/huggingface.png'
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Main = () => {
   return (

@@ -1,5 +1,4 @@
 import React from 'react';
-import dpai from '../public/assets/skills/dpai.png'
 import Image from 'next/image'
 import qaimage from '../public/assets/QABERT.png'
 import maskimage from '../public/assets/masked.png'

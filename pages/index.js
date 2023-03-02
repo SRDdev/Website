@@ -6,6 +6,7 @@ import Projects from '../components/Projects'
 import Skills from '../components/Skills'
 import Models from '../components/Models'
 import Research from '../components/Research'
+import back from '../public/background.svg'
 
 export default function Home() {
   return (
