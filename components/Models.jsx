@@ -25,8 +25,8 @@ const Models = () => {
             <h3 className="p-1 text-xl">ScriptGPT</h3>
             <Image src={script} height="25px" width="25px" alt="/" />
             </div>
-                <p className="p-1 text-sm">ScriptGPT is a GPT model built to generate Youtube Scripts. The current version is a smaller version based on few videos.</p>
-                <h4 className="p-1 " style={{textAlign: "center",width:"fit-content"}}><a href="https://huggingface.co/SRDdev/Script_GPT" target="_blank" rel="noreferrer">Try Model <Image src={try_image} height="15px" width="15px" alt="/" /></a></h4>
+                <p className="p-1 text-sm">ScriptGPT is a model series which allows users to generate YouTube , Video scripts. These scripts can be used to create new and exciting content.</p>
+                <h4 className="p-1 " style={{textAlign: "center",width:"fit-content"}}><a href="https://huggingface.co/SRDdev/Script_GPT" target="_blank" rel="noreferrer">Try Models <Image src={try_image} height="15px" width="15px" alt="/" /></a></h4>
             </div>
             </div>
             </div>

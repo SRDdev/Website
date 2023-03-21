@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { BsTwitter } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import ContactImg from '../public/assets/contact.jpg';
@@ -36,98 +36,60 @@ const Contact = () => {
               </div>
               <div>
                 <p className='uppercase pt-8'>Connect With Me</p>
-                <div className='flex items-center justify-between py-4'>
-                  <a
-                    href='https://www.linkedin.com/in/clint-briley-50056920a/'
-                    target='_blank'
-                    rel='noreferrer'
-                  >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                      <FaLinkedinIn />
-                    </div>
-                  </a>
-                  <a
-                    href='https://github.com/fireclint'
-                    target='_blank'
-                    rel='noreferrer'
-                  >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                      <FaGithub />
-                    </div>
-                  </a>
-
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <div className='flex items-center justify-between max-w-[430px] m-auto py-4'>
+                <a
+                  href='https://www.linkedin.com/in/srddev/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:bg-gradient-to-r from-[#ff9100] to-[#ffb24d] hover:scale-110 ease-in duration-300'>
+                    <FaLinkedinIn />
+                  </div>
+                </a>
+                <a
+                  href='https://github.com/SRDdev'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:bg-gradient-to-r from-[#ff9100] to-[#ffb24d] hover:scale-110 ease-in duration-300'>
+                    <FaGithub />
+                  </div>
+                </a>
+                <Link href='/#contact'>
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:bg-gradient-to-r from-[#ff9100] to-[#ffb24d] hover:scale-110 ease-in duration-300'>
                     <AiOutlineMail />
                   </div>
-                  <Link href='/resume'>
-                    <a>
-                      <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <BsFillPersonLinesFill />
-                      </div>
-                    </a>
-                  </Link>
-                </div>
+                </Link>
+                <Link href="https://twitter.com/Shreyas__Dixit">
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:bg-gradient-to-r from-[#ff9100] to-[#ffb24d] hover:scale-110 ease-in duration-300'>
+                    <BsTwitter />
+                  </div>
+                </Link>
+              </div>
               </div>
             </div>
           </div>
 
           {/* right */}
-          <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
-            <div className='p-4'>
-              <form
-                action='https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060'
-                method='POST'
-                encType='multipart/form-data'
-              >
-                <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
-                  <div className='flex flex-col'>
-                    <label className='uppercase text-sm py-2'>Name</label>
-                    <input
-                      className='border-2 rounded-lg p-3 flex border-gray-300'
-                      type='text'
-                      name='name'
-                    />
-                  </div>
-                  <div className='flex flex-col'>
-                    <label className='uppercase text-sm py-2'>
-                      Phone Number
-                    </label>
-                    <input
-                      className='border-2 rounded-lg p-3 flex border-gray-300'
-                      type='text'
-                      name='phone'
-                    />
-                  </div>
-                </div>
-                <div className='flex flex-col py-2'>
-                  <label className='uppercase text-sm py-2'>Email</label>
-                  <input
-                    className='border-2 rounded-lg p-3 flex border-gray-300'
-                    type='email'
-                    name='email'
-                  />
-                </div>
-                <div className='flex flex-col py-2'>
-                  <label className='uppercase text-sm py-2'>Subject</label>
-                  <input
-                    className='border-2 rounded-lg p-3 flex border-gray-300'
-                    type='text'
-                    name='subject'
-                  />
-                </div>
-                <div className='flex flex-col py-2'>
-                  <label className='uppercase text-sm py-2'>Message</label>
-                  <textarea
-                    className='border-2 rounded-lg p-3 border-gray-300'
-                    rows='10'
-                    name='message'
-                  ></textarea>
-                </div>
-                <button className='w-full p-4 text-gray-100 mt-4'>
-                  Send Message
-                </button>
-              </form>
-            </div>
+          <div className='w-[600px]'>
+                <h2 className='py-2'>Productivity Pro </h2>
+                <br></br>
+                <b><p>Weekly News Letter</p></b>
+                <br></br>
+                <p>Are you tired of feeling overwhelmed and struggling to get things done? Do you find yourself constantly running out of time, no matter how hard you try to stay organized? At Productivity Pro, we understand how frustrating it can be to feel like you're constantly falling behind. That's why we're here to help you take control of your time and boost your productivity.
+
+                  Our team of experts has developed a range of tools and strategies to help you get more done in less time. From time management techniques to task prioritization strategies, we have the tools you need to get your work done efficiently and effectively.
+
+                  But we don't just offer resources and advice - we also provide one-on-one coaching and support to help you stay on track and achieve your productivity goals. Whether you're a busy professional looking to streamline your workflow or a student trying to juggle multiple deadlines, we have the expertise and guidance you need to succeed.
+
+                  So why wait? Take control of your time and boost your productivity with Productivity Pro today!</p>
+                  <br></br>
+                <p className='py-4'>
+                  <a style={{display: "flex",flexDirection:"column",justify:"center",padding:"7px",textAlign:"center",outline:"none",textDecoration:"none",
+                color:"#FFFFFF",width:"200px",borderRadius:"16px",backgroundColor: "#0A66C2",}} 
+                href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7015550296219119616" target="_blank">Subscribe on LinkedIn
+              </a>
+                </p>
           </div>
         </div>
         <div className='flex justify-center py-12'>
@@ -135,7 +97,7 @@ const Contact = () => {
             <a>
               <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <HiOutlineChevronDoubleUp
-                  className='text-[#5651e5]'
+                  className='text-[#000000]'
                   size={30}
                 />
               </div>

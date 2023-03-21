@@ -3,12 +3,13 @@ import React from 'react';
 import Image from 'next/image'
 import hugging from '../public/assets/huggingface.png'
 import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { BsTwitter } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+
 
 const Main = () => {
   return (
-    <div id='home' className='w-full h-screen text-center' style={{backgroundColor:"#ffffff"}}>
+    <div id='home' className='w-full h-screen text-center' style={{backgroundColor:"#ffff"}}>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
           <p className='uppercase text-sm tracking-widest text-gray-600'>
@@ -52,9 +53,9 @@ const Main = () => {
                 <AiOutlineMail />
               </div>
             </Link>
-            <Link href="#">
+            <Link href="https://twitter.com/Shreyas__Dixit">
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:bg-gradient-to-r from-[#ff9100] to-[#ffb24d] hover:scale-110 ease-in duration-300'>
-                <BsFillPersonLinesFill />
+                <BsTwitter />
               </div>
             </Link>
           </div>

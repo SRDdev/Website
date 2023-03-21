@@ -8,6 +8,7 @@ import text from '../public/assets/projects/TEXT.png'
 import plants from '../public/assets/projects/plants.png'
 import tweet from '../public/assets/projects/twitter.png'
 import ProjectItem from './ProjectItem';
+import script from '../public/assets/projects/Script.jpg';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
 const Projects = () => {
@@ -19,6 +20,14 @@ const Projects = () => {
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-4 p-0'>
+        <ProjectItem
+            title='Scriptify'
+            backgroundImg={script}
+            projectUrl='https://huggingface.co/spaces/SRDdev/Scriptify'
+            description="Scriptify is a Language model demo which I have built on top ScriptGPT models, It allows users to generate youtube scripts."
+            click="Demo"
+            icon={<FaGithub />}
+            />
           <ProjectItem
             title='Hinglish Translation'
             backgroundImg={translationimg}
