@@ -13,7 +13,7 @@ const Main = () => {
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
           <p className='uppercase text-sm tracking-widest text-gray-600'>
-            BUILDING ML AS PASSION 
+            DEVELOPING ML AS A PASSION 
           </p><br></br><br></br>
           <h1 className='py-1 ' style={{ fontFamily: 'SF Pro Display, sans-serif' }}>Shreyas Dixit</h1>
           <p className='py-4 text-gray-600 sm:max-w-[75%] m-auto' >
