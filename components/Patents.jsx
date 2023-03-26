@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image'
 import script from '../public/assets/VisualAudioAI.png'
-import modelimage from '../public/assets/Patent.png'
+import modelimage from '../public/assets/PATENT.png'
 
 const Patents = () => {
     return(
