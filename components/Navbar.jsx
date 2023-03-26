@@ -75,7 +75,7 @@ const Navbar = () => {
               <Link href='/#Models'>Models</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#AINotes'>AI Notes</Link>
+              <Link href='/#Patents'>Patents</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#skills'>Certificates</Link>
@@ -137,7 +137,7 @@ const Navbar = () => {
             </div>
             <div className='border-b border-gray-300 my-4'>
               <p className='w-[85%] md:w-[90%] py-4'>
-                Let&#39;s build something legendary together
+                Developing ML as a Passion
               </p>
             </div>
           </div>

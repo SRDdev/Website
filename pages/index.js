@@ -6,7 +6,7 @@ import Projects from '../components/Projects'
 import Skills from '../components/Skills'
 import Models from '../components/Models'
 import Research from '../components/Research'
-import AINotes from '../components/AINotes'
+import Patent from '../components/Patents'
 
 
 export default function Home() {
@@ -20,7 +20,7 @@ export default function Home() {
     <Main />
     <About />
     <Models />
-    <AINotes />
+    <Patent />
     <Skills />
     <Projects />
     <Research />
