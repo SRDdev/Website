@@ -75,13 +75,16 @@ const Navbar = () => {
               <Link href='/#Models'>Models</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
+              <Link href='/#Patents'>Patents</Link>
+            </li>
+            <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#skills'>Certificates</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#projects'>Projects</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/resume'>Research</Link>
+              <Link href='/#research'>Research</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#contact'>Contact</Link>
@@ -134,7 +137,7 @@ const Navbar = () => {
             </div>
             <div className='border-b border-gray-300 my-4'>
               <p className='w-[85%] md:w-[90%] py-4'>
-                Let&#39;s build something legendary together
+                Developing ML as a Passion
               </p>
             </div>
           </div>
@@ -148,6 +151,11 @@ const Navbar = () => {
               <Link href='/#Models'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Models
+                </li>
+              </Link>
+              <Link href='/#AINotes'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                  Notes
                 </li>
               </Link>
               <Link href='/#skills'>
