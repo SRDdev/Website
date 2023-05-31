@@ -1,0 +1,12 @@
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .customVideo {
+    width: 50%;
+    height: 50%;
+  }
+  
