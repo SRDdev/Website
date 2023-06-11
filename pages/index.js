@@ -7,6 +7,7 @@ import Skills from '../components/Skills'
 import Models from '../components/Models'
 import Research from '../components/Research'
 import Patent from '../components/Patents'
+import Newsletter from '../components/Newsletter'
 
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
     <Skills />
     <Projects />
     <Research />
+    <Newsletter/>
     <Contact />
     </div>
   )

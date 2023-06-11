@@ -11,8 +11,8 @@ const Patents = () => {
             <p className='text-[#ff9100]'></p>
             <h2 className='py-4'><Image src={modelimage} height="30px" width="30px" alt="/" /> Patents</h2>
             <p>Yes I am a Patent Holder ! A Showcase of my Patented Solutions</p>
-            <div className='grid grid-cols-2 lg:grid-cols-2 gap-10 pt-4'>
-            {/*Script GPT*/}
+            <div className='grid grid-cols-1 lg:grid-cols-1 gap-10 pt-4'>
+            {/*Audio Script*/}
             <div className="p-0 shadow-xl bg-white hover:bg-gradient-to-r from-[#ff9100] to-[#ffb24d] hover:scale-105 ease-in duration-300" data-sr-id="17" style={{borderRadius:"1rem",visibility: "visible", opacity: 1}}>
             <div className="p-4 rounded-full" style={{borderRadius:"1rem"}}>
             <div className="flex flex-col hover:text-white">

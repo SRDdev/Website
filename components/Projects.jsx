@@ -9,6 +9,7 @@ import plants from '../public/assets/projects/plants.png'
 import tweet from '../public/assets/projects/twitter.png'
 import ProjectItem from './ProjectItem';
 import script from '../public/assets/projects/Script.jpg';
+import EchoSense from '../public/assets/projects/pic2audio.jpg';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
 const Projects = () => {
@@ -21,11 +22,19 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-4 p-0'>
         <ProjectItem
+            title='EchoSense'
+            backgroundImg={EchoSense}
+            projectUrl='https://huggingface.co/spaces/SRDdev/EchoSense'
+            description="EchoSense is Implementation of our Patent Asstive platform for Visually Impared Person.EchoSense is a multimodality model that aims to generates Audio descriptions by looking at any given Image."
+            click="Try Now !"
+            icon={<FaGithub />}
+            />
+        <ProjectItem
             title='Scriptify'
             backgroundImg={script}
             projectUrl='https://huggingface.co/spaces/SRDdev/Scriptify'
-            description="Scriptify is a Language model demo which I have built on top ScriptGPT models, It allows users to generate youtube scripts."
-            click="Demo"
+            description="Scriptify is a Language model demo which I have built on top ScriptForge models, It allows users to generate youtube scripts."
+            click="Try Now !"
             icon={<FaGithub />}
             />
           <ProjectItem

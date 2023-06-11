@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust the height as per your requirements */
+  }
+  
+  .iframeWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
