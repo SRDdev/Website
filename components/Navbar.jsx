@@ -78,7 +78,7 @@ const Navbar = () => {
               <Link href='/#Patents'>Patents</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#skills'>Certificates</Link>
+              <Link href='/#skills'>Experience</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#projects'>Projects</Link>

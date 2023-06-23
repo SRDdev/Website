@@ -17,7 +17,7 @@ const Main = () => {
           </p><br></br><br></br>
           <h1 className='py-1 ' style={{ fontFamily: 'SF Pro Display, sans-serif' }}>Shreyas Dixit</h1>
           <p className='py-4 text-gray-600 sm:max-w-[78%] m-auto' >
-          Student Researcher | Patent Holder | Deep Learning | Joint Technical Head @SEC VIIT  ML Developer @MLSC VIIT 
+          ML Intern @BVIRAL | Student Researcher | Patent Holder | Joint Technical Head @SEC VIIT  ML Developer @MLSC VIIT 
           </p>
           <div className='flex items-center justify-between max-w-[430px] m-auto py-4'>
             

@@ -4,7 +4,7 @@ import '../styles/Newsletter.module.css';
 const MyComponent = () => {
   return (
     <>
-    <div id='home' className='w-full h-500 text-center' style={{backgroundColor:"#ffff"}}>
+    <div id='home' className='w-full h-500 text-center'>
     <div className='max-w-[1240px] mx-auto px-2 py-10'>
         <p className='text-xl tracking-widest uppercase text-[#ff9100]'>NewsLetter</p>
         <h2 className='py-4 pb-0 mb-0'>ProductivityPro</h2>

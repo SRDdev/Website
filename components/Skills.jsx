@@ -11,15 +11,29 @@ const Skills = () => {
         <p className='text-xl tracking-widest uppercase text-[#ff9100] p-4'>
           Experience
         </p>
-        <div className='grid grid-cols-1 gap-8'>
-          <div className="p-0 shadow-xl hover:scale-105 ease-in duration-300" data-sr-id="17" style={{borderRadius:"1.5rem",visibility: "visible", opacity: 1,backgroundColor:"#f2f2f2"}}>
-          <div className="p-4 shadow-xl rounded-xl"style={{borderRadius:"1.5rem"}}>
-                  <h5 className="p-4">Epsitek Technologies<br />APR 2022 - MAY 2022</h5>
-                  <p className='p-4'>During my internship, I developed a multiple page website for a holiday home or villa. The project involved working in an Agile team system, following an iterative and collaborative approach to project management. We analyzed the client&apos;s requirements, developed a project plan, and used HTML, CSS, JavaScript to develop the website. We incorporated features such as a Attractive landing page , image gallery, and contact form. Through collaborative teamwork and regular meetings, we successfully delivered a website that met the client&apos;s expectations.</p>
-            </div>
+        <div className='grid grid-cols-2 gap-8'style={{marginBottom:"50px"}}>
+
+        <div className='grid grid-cols-1 gap-8' >
+        <div className="p-0 hover:scale-105 ease-in duration-300" data-sr-id="17" style={{borderRadius:"1.5rem",visibility: "visible", opacity: 1, backgroundColor: "#f1f3f4",boxShadow: "0 0 25px rgba(0, 0, 0, 0.1)"}}>
+          <div className="p-4 rounded-xl" style={{borderRadius:"1.5rem"}}>
+            <h3 className="pl-4" style={{fontSize:"25px"}}>Machine Learning Intern</h3>
+            <h5 className="p-4">BVIRAL<br />June 2023 - Current</h5>
+            <p className='p-4'>
+During my time at BVIRAL, I will be actively involved in building a deep learning pipeline for their content company. This exciting project entails developing a comprehensive system that generates relevant titles and categorizes millions of short-form videos on Instagram. As a Deep Learning Engineering Intern, my responsibilities will include designing and implementing algorithms, optimizing model performance, and collaborating with a talented team to ensure the success and effectiveness of the pipeline. I am thrilled to contribute my skills and knowledge to this project and make a significant impact in the field of content generation and categorization.</p>
           </div>
         </div>
-        <br></br><br></br>
+        </div>
+        <div className='grid grid-cols-1 gap-8' >
+        <div className="p-0 hover:scale-105 ease-in duration-300" data-sr-id="17" style={{borderRadius:"1.5rem",visibility: "visible", opacity: 1, backgroundColor: "#f1f3f4",boxShadow: "0 0 25px rgba(0, 0, 0, 0.1)"}}>
+          <div className="p-4 rounded-xl" style={{borderRadius:"1.5rem"}}>
+            <h3 className="pl-4" style={{fontSize:"25px"}}>Website Developer</h3>
+            <h5 className="p-4">Epsitek Technologies<br />APR 2022 - MAY 2022</h5>
+            <p className='p-4'>During my internship, I developed a multiple page website for a holiday home or villa. The project involved working in an Agile team system, following an iterative and collaborative approach to project management. We analyzed the client&apos;s requirements, developed a project plan, and used HTML, CSS, JavaScript to develop the website. We incorporated features such as an attractive landing page, image gallery, and contact form. Through collaborative teamwork and regular meetings, we successfully delivered a website that met the client&apos;s expectations.</p>
+          </div>
+        </div>
+        </div>
+
+        </div>
         <p className='text-xl tracking-widest uppercase text-[#ff9100] p-4'>
           Certificates
         </p>
