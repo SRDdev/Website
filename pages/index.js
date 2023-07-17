@@ -15,8 +15,8 @@ export default function Home() {
     <div style={{backgroundColor:"#ffff"}}>
       <Head>
         <title>Shreyas Dixit</title>
-        <meta name="description" content=" " />
-        <link rel="icon" href="/fav.png" />
+        <meta name="description" content="Portfolio Website of Shreyas Dixit." />
+        <link rel="icon" href="public/fav.png" />
       </Head>
     <Main />
     <About />
