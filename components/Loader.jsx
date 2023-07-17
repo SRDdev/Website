@@ -6,19 +6,11 @@ const Loader = ({ setShowLoader }) => {
 
   useEffect(() => {
     const video = videoRef.current;
-
-    // Gradually increase the playback speed every 500ms
-    const increasePlaybackSpeed = setInterval(() => {
-      if (video.playbackRate >= 4.0) {
-        clearInterval(increasePlaybackSpeed);
-      } else {
-        video.playbackRate += 0.1; // Increase by 0.1x
-      }
-    }, 500);
+    video.playbackRate = 2.0; // Set playback rate to 2x
 
     // Cleanup function
     return () => {
-      clearInterval(increasePlaybackSpeed);
+      video.playbackRate = 1.0; // Reset playback rate to default (1x)
     };
   }, []);
 
