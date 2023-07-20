@@ -25,7 +25,7 @@ const Loader = ({ setShowLoader }) => {
         ref={videoRef}
       >
         <source src="/assets/loader.webm" type="video/webm" />
-        Shreyas Dixit's Personal Portfolio
+        Your browser does not support the video tag.
       </video>
     </div>
   );
