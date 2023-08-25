@@ -47,7 +47,7 @@ const Navbar = () => {
 
   return (
     <div
-    style={{backgroundColor:"#ffff"}}
+    style={{backdropFilter: "blur(10px)"}}
       className={
         shadow
           ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
@@ -67,7 +67,7 @@ const Navbar = () => {
           </a>
         </Link>
         <div>
-          <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
+          <ul style={{ color: "white"}} className='hidden md:flex'>
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/'>Home</Link>
             </li>

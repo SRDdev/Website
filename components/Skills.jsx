@@ -33,6 +33,16 @@ During my time at BVIRAL, I will be actively involved in building a deep learnin
         </div>
         </div>
 
+        <div className='grid grid-cols-1 gap-8' >
+        <div className="p-0 hover:scale-105 ease-in duration-300" data-sr-id="17" style={{borderRadius:"1.5rem",visibility: "visible", opacity: 1, backgroundColor: "#f1f3f4",boxShadow: "0 0 25px rgba(0, 0, 0, 0.1)"}}>
+          <div className="p-4 rounded-xl" style={{borderRadius:"1.5rem"}}>
+            <h3 className="pl-4" style={{fontSize:"25px"}}>Microsoft Learn Student Ambassdor</h3>
+            <h5 className="p-4">MLSC VIIT<br />June 2023 - Current</h5>
+            <p className='p-4'>Leading the Microsoft Club at Vishwakarma Institute of Information Technology Pune.</p>
+          </div>
+        </div>
+        </div>
+
         </div>
         <p className='text-xl tracking-widest uppercase text-[#ff9100] p-4'>
           Certificates

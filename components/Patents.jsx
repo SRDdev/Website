@@ -13,7 +13,7 @@ const Patents = () => {
             <p>Yes I am a Patent Holder ! A Showcase of my Patented Solutions</p>
             <div className='grid grid-cols-1 lg:grid-cols-1 gap-10 pt-4'>
             {/*Audio Script*/}
-            <div className="p-0 shadow-xl bg-white hover:bg-gradient-to-r from-[#ff9100] to-[#ffb24d] hover:scale-105 ease-in duration-300" data-sr-id="17" style={{borderRadius:"1rem",visibility: "visible", opacity: 1}}>
+            <div className="p-0 shadow-xl bg-white hover:bg-gradient-to-r from-[#c5b5e5] to-[#aa75cb] hover:scale-105 ease-in duration-300" data-sr-id="17" style={{borderRadius:"1rem",visibility: "visible", opacity: 1}}>
             <div className="p-4 rounded-full" style={{borderRadius:"1rem"}}>
             <div className="flex flex-col hover:text-white">
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
