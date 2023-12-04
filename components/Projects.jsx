@@ -4,9 +4,9 @@ import React from 'react';
 import translationimg from '../public/assets/projects/translation.png'
 import imagecaption from '../public/assets/projects/image_captioning.jpeg'
 import colorextraction from '../public/assets/projects/material_you.png'
-import text from '../public/assets/projects/TEXT.png'
-import plants from '../public/assets/projects/plants.png'
-import tweet from '../public/assets/projects/twitter.png'
+import emotion from '../public/assets/projects/emotion.jpg'
+import llama from '../public/assets/projects/llama.png'
+import tweet from '../public/assets/projects/tweet.gif'
 import ProjectItem from './ProjectItem';
 import script from '../public/assets/projects/Script.jpg';
 import EchoSense from '../public/assets/projects/pic2audio.jpg';
@@ -21,6 +21,14 @@ const Projects = () => {
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-4 p-0'>
+        <ProjectItem
+            title='YouTube Llama'
+            backgroundImg={llama}
+            projectUrl='https://github.com/SRDdev/YouTube-Llama'
+            description="A question-answering chatbot for any YouTube video using Local Llama2 & Retrival Augmented Generation."
+            click="Github !"
+            icon={<FaGithub />}
+            />
         <ProjectItem
             title='EchoSense'
             backgroundImg={EchoSense}
@@ -60,27 +68,27 @@ const Projects = () => {
             click=" Try Now ! "
             />
 
-            <ProjectItem
-            title='Plant Disease Detection'
+            {/* <ProjectItem
+            title='Aerial Segmentation'
             backgroundImg={plants}
-            projectUrl='https://github.com/SRDdev/Potato-Plant-Disease-Classification'
-            description='The Project aims to detect Potato Plant Disease🌱 from the uploaded images of the leaves of the before the plant gets the disease. The main aim of the repo was to learn CNNs with tensorflow.'
+            projectUrl='https://github.com/SRDdev/Aerial-Segmentation-Models'
+            description='The Project aims to segment Aerial Images. The main aim of the repo was to learn Semantic Segmentation.'
             click=" GitHub "
-            />
+            /> */}
 
             <ProjectItem
-            title='Text Summarizer'
-            backgroundImg={text}
-            projectUrl='https://huggingface.co/spaces/SRDdev/Summarize'
-            description='This Project provides you with a brief summary of the given Text. The Project allows you to paste or Upload PDF file to summarize it , It also allows you to customize the summarization % of the Final summary!'
+            title='Emotion Recognition'
+            backgroundImg={emotion}
+            projectUrl='https://github.com/SRDdev/Emotion-Recognition'
+            description='The Emotion Recognition App is a real-time application that utilizes machine learning to detect and recognize human emotions from a webcam feed. The application uses a pre-trained deep learning model to classify facial expressions into seven different emotions: Angry, Disgusted, Fearful, Happy, Neutral, Sad, and Surprised. This project demonstrates the integration of computer vision and machine learning for emotion analysis.'
             click=" Try Now ! "
             />
 
             <ProjectItem
-            title='Twitter Sentiment Analysis'
+            title='Image Generation'
             backgroundImg={tweet}
-            projectUrl='https://github.com/SRDdev/Twitter-Sentiment-Analysis'
-            description='This Repository consists of Twitter Tweet Sentiment Analysis code which we wrote in a Workshop related to Natural Language Processing. This code represents various stages of NLP Project'
+            projectUrl='https://github.com/SRDdev/Image-Generation'
+            description='"Image Generation from Scratch" repository! This project is dedicated to building image generation models from scratch using PyTorch. In this repository, youll find both GANs (Generative Adversarial Networks) and Diffusion models implemented from the ground up.'
             click=" GitHub "
             />
 

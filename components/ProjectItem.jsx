@@ -13,7 +13,7 @@ const ProjectItem = ({title, backgroundImg, projectUrl,description,click,icon}) 
         <Image className='h-full w-full object-cover rounded-t-xl group-hover:opacity-5' src={backgroundImg} alt={title} />
         {icon}
         <div className='absolute inset-0 bg-black opacity-50 group-hover:opacity-0 transition-opacity h-[300px]'></div>
-        <h1 className='group-hover:opacity-0 pb-0 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/10 text-white font-bold text-center z-10'>{title}</h1>
+        <h1 className='group-hover:opacity-0 pb-0 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/10 text-white font-bold text-center z-10'style={{marginTop:'0px'}}>{title}</h1>
       </div>
       <div className='my-[-100px] hidden group-hover:block'>
           <h3 className='text-center text-white'>{title}</h3>
