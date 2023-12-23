@@ -14,13 +14,13 @@ const Main = () => {
       <NavBar/>
       <div className='max-w-[900px] w-full h-full mx-auto p-2 flex justify-center items-center'>
       <div>
-          <p className='uppercase text-sm tracking-widest text-600'>
-            DEVELOPING ML AS A PASSION 
+          <p className='uppercase text-sm tracking-widest text-800'>
+            Empowering Lives through AI  
           </p><br></br><br></br>
           <h1 className='py-1' style={{fontFamily: 'SF Pro Display, sans-serif',color:'black'}}>Shreyas Dixit</h1>
 
           <p className='py-4 text-100 sm:max-w-[78%] m-auto' >
-          Ex-ML Enginnering Intern @BVIRAL | Student Researcher | Patent Holder | President @MLSC VIIT Pune
+          Dual Patent Holder | Ex-ML Enginnering Intern @BVIRAL | Student Researcher  President @MLSC VIIT Pune
           </p>
           <div className='flex items-center justify-between max-w-[430px] m-auto py-4'>
             
