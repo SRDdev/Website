@@ -6,7 +6,7 @@ import imagecaption from '../public/assets/projects/image_captioning.jpeg'
 import colorextraction from '../public/assets/projects/material_you.png'
 import emotion from '../public/assets/projects/emotion.jpg'
 import llama from '../public/assets/projects/llama.png'
-import clip from '../public/assets/projects/clip.jpg'
+import clip from '../public/assets/projects/clip.png'
 import tweet from '../public/assets/projects/tweet.gif'
 import ProjectItem from './ProjectItem';
 import script from '../public/assets/projects/Script.jpg';
