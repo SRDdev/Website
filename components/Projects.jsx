@@ -6,6 +6,7 @@ import imagecaption from '../public/assets/projects/image_captioning.jpeg'
 import colorextraction from '../public/assets/projects/material_you.png'
 import emotion from '../public/assets/projects/emotion.jpg'
 import llama from '../public/assets/projects/llama.png'
+import clip from '../public/assets/projects/clip.jpg'
 import tweet from '../public/assets/projects/tweet.gif'
 import ProjectItem from './ProjectItem';
 import script from '../public/assets/projects/Script.jpg';
@@ -21,6 +22,16 @@ const Projects = () => {
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-4 p-0'>
+        <ProjectItem
+            title='CLIP'
+            backgroundImg={clip}
+            projectUrl='https://github.com/SRDdev/OpenAI-CLIP'
+            description="OpenAI has open-sourced code related to the CLIP model, but it is complicated to understand.
+            I prefer to implement it based on the paper. Additionally, I found a helpful tutorial inspired by the
+            CLIP model on Keras code examples, which assisted me in replicating the code in PyTorch."
+            click="Github !"
+            icon={<FaGithub />}
+            />
         <ProjectItem
             title='YouTube Llama'
             backgroundImg={llama}
