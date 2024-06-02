@@ -14,7 +14,7 @@ const Skills = () => {
         <div className='grid grid-cols-2 gap-8'style={{marginBottom:"50px"}}>
 
         {/* Research Fellow AISC*/}
-        <div className='grid grid-cols-1 gap-8' >
+        {/* <div className='grid grid-cols-1 gap-8' >
         <div className="p-0 hover:scale-105 ease-in duration-300" data-sr-id="17" style={{borderRadius:"1.5rem",visibility: "visible", opacity: 1, backgroundColor: "#f1f3f4",boxShadow: "0 0 25px rgba(0, 0, 0, 0.1)"}}>
           <div className="p-4 rounded-xl" style={{borderRadius:"1.5rem"}}>
             <h3 className="pl-4" style={{fontSize:"25px"}}>Undergraduate Research Fellow</h3>
@@ -23,7 +23,7 @@ const Skills = () => {
            <br></br></p>
           </div>
         </div>
-        </div>
+        </div> */}
 
         {/* Dassult Systems*/}
         <div className='grid grid-cols-1 gap-8' >
