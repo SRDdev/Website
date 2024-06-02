@@ -12,14 +12,13 @@ const About = () => {
           </p>
           <h2 className='py-4'>About Me</h2>
           <p className='py-2 text-gray-700 pr-[130px] text-justify' style={{fontSize:"18px"}}>
-          I am an Undergraduate student majoring in Electronics & Telecommunications at VIIT Pune. I have a keen interest in the field of <b>Deep Learning</b>, particularly at the intersection of Language and Vision modalities. With a dedication to exploring and <b>implementing research ideas</b>, I am passionate about communicating my work through articles and teaching others via courses and talks.
-          <br/><br/>
-          Notably, I am a <b>dual patent holder</b>, a testament to my significant contributions to innovative solutions in the field of Deep Learning. My current focus is on <b>developing inclusive solutions for specially-abled individuals</b>.
+          I am an Undergraduate student majoring in Electronics & Telecommunications at VIIT Pune. I have a keen interest in the field of <b>Deep Learning</b>, with a specific focus on the intersection of Language and Vision modalities. I enjoy exploring and <b>implementing research ideas</b>, and have a passion for communicating my work through articles and teaching others through courses and talks.
           <br/><br/>
           I like to write highly readable and self-contained code, with Python being my primary programming language. I am an <b>intermediate learner in TensorFlow and PyTorch.</b> 
-          
+          <br/><br/>
+          I am currently working on <b>building Open Source models on HuggingFace 🤗</b> and learning about Machine Learning in Production. I enjoy writing technical articles and giving talks about Deep Learning.
           <br></br><br></br>
-          Outside of academia, I find joy in watching movies and TV shows, with "Suits" being a personal favorite. Should you have any questions or need assistance, please feel free to reach out to me—I am always eager to help!
+          Off the work, I enjoy watching movies and TV shows like Suits & a regular cricket player. If you have any questions or need assistance, feel free to reach out to me. I am always happy to help!
           <br></br>
           <br></br>
           Actively Looking For Internship 👨‍💻

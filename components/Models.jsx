@@ -6,7 +6,8 @@ import script from '../public/assets/AI.png'
 import try_image from '../public/assets/try.png'
 import modelimage from '../public/assets/blocks.png'
 import translate_img from '../public/assets/translation.png'
-
+import image_seg from '../public/assets/images-removebg-preview.png'
+import yolo from '../public/assets/yolo.png'
 const Models = () => {
     return(
         <>
@@ -14,10 +15,35 @@ const Models = () => {
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
             <p className='text-[#ff9100]'></p>
             <h2 className='py-4'><Image src={modelimage} height="30px" width="30px" alt="/" /> Open Source Models </h2>
-            <p>I am generally interested in the area of Deep learning.More specifically in language and vision modalities.I enjoy implementing research ideas, sometimes incorporating them into practical applications, and communicating my implementation details through open source models.</p>
-            <p>More models comming soon...</p>
+            <p>I am generally interested in the area of Deep learning. More specifically in language and vision modalities. I enjoy implementing research ideas, sometimes incorporating them into practical applications, and communicating my implementation details through open source models.</p>
             <br/><br/>
             <div className='grid grid-cols-2 lg:grid-cols-3 gap-8'>
+            {/* SwinTransformer */}
+            <div className="p-0 shadow-xl  bg-white hover:bg-gradient-to-r from-[#ff9100] to-[#ffb24d] hover:scale-105 ease-in duration-300" data-sr-id="17" style={{borderRadius:"1rem",visibility: "visible", opacity: 1}}>
+            <div className="p-4 rounded-full" style={{borderRadius:"1rem"}}>
+            <div className="flex flex-col hover:text-white">
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            <h3 className="p-1 text-xl">SwinTransformer</h3>
+            <Image src={image_seg} height="25px" width="25px" alt="/" />
+            </div>
+                <p className="p-1 text-sm">Replicate the architecture proposed in the Swin Transformer paper for medical image semantic segmentation. Swin Transformer is a novel architecture introduced in the paper "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows" by Ze Liu et al. The Swin Transformer has shown promising results in various computer vision tasks, including image classification and object detection.</p>
+                <h4 className="p-1" style={{textAlign: "center",width:"fit-content"}}><a href="https://medium.com/@srddev/swin-transformers-for-semantic-segmentation-part-1-bd85bad7e051" target="_blank" rel="noreferrer">Blog<Image src={try_image} height="15px" width="15px" alt="/"/></a></h4>
+            </div>
+            </div>
+            </div>
+            {/* Yolo-V9 */}
+            <div className="p-0 shadow-xl  bg-white hover:bg-gradient-to-r from-[#ff9100] to-[#ffb24d] hover:scale-105 ease-in duration-300" data-sr-id="17" style={{borderRadius:"1rem",visibility: "visible", opacity: 1}}>
+            <div className="p-4 rounded-full" style={{borderRadius:"1rem"}}>
+            <div className="flex flex-col hover:text-white">
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            <h3 className="p-1 text-xl">Yolo-V9</h3>
+            <Image src={yolo} height="25px" width="25px" alt="/" />
+            </div>
+                <p className="p-1 text-sm">Implementation of a multi-head YOLOv9 model for clothes detection and instance segmentation. The model is trained on the DeepFashion dataset and evaluated using MSCOCO.</p>
+                <h4 className="p-1" style={{textAlign: "center",width:"fit-content"}}><a href="https://medium.com/@srddev/understanding-multi-headed-yolo-v9-for-object-detection-and-segmentation-8923ee21b652" target="_blank" rel="noreferrer">Blog<Image src={try_image} height="15px" width="15px" alt="/"/></a></h4>
+            </div>
+            </div>
+            </div>
             {/* HingFlow */}
             <div className="p-0 shadow-xl  bg-white hover:bg-gradient-to-r from-[#ff9100] to-[#ffb24d] hover:scale-105 ease-in duration-300" data-sr-id="17" style={{borderRadius:"1rem",visibility: "visible", opacity: 1}}>
             <div className="p-4 rounded-full" style={{borderRadius:"1rem"}}>

@@ -13,16 +13,67 @@ const Skills = () => {
         </p>
         <div className='grid grid-cols-2 gap-8'style={{marginBottom:"50px"}}>
 
+        {/* Research Fellow AISC*/}
+        <div className='grid grid-cols-1 gap-8' >
+        <div className="p-0 hover:scale-105 ease-in duration-300" data-sr-id="17" style={{borderRadius:"1.5rem",visibility: "visible", opacity: 1, backgroundColor: "#f1f3f4",boxShadow: "0 0 25px rgba(0, 0, 0, 0.1)"}}>
+          <div className="p-4 rounded-xl" style={{borderRadius:"1.5rem"}}>
+            <h3 className="pl-4" style={{fontSize:"25px"}}>Undergraduate Research Fellow</h3>
+            <h5 className="p-4">Artificial Intelligence Institute of South Carolina<br />May 2024 - Current</h5>
+            <p className='p-4'>
+           <br></br></p>
+          </div>
+        </div>
+        </div>
+
+        {/* Dassult Systems*/}
+        <div className='grid grid-cols-1 gap-8' >
+        <div className="p-0 hover:scale-105 ease-in duration-300" data-sr-id="17" style={{borderRadius:"1.5rem",visibility: "visible", opacity: 1, backgroundColor: "#f1f3f4",boxShadow: "0 0 25px rgba(0, 0, 0, 0.1)"}}>
+          <div className="p-4 rounded-xl" style={{borderRadius:"1.5rem"}}>
+            <h3 className="pl-4" style={{fontSize:"25px"}}>Deep Learning Engineer</h3>
+            <h5 className="p-4">Dassult Systems & VIIT<br />Nov 2023 - May 2024</h5>
+            <p className='p-4'>
+            Worked on Stutter Detection using Deep Learning. Project Included data gathering from schools, colleges, and universities. Data preprocessing, Exploratory data analysis, etc.<br></br>Developed a system for stutter detection, which includes distinguishing the time of stuttering and calculating the percentage of 
+stuttering. This work utilized modern deep learning architectures such as Wav2Vec2 and Agnostic BERT. <br></br></p>
+          </div>
+        </div>
+        </div>
+
+      {/* Freelance MLE */}
+        <div className='grid grid-cols-1 gap-8' >
+        <div className="p-0 hover:scale-105 ease-in duration-300" data-sr-id="17" style={{borderRadius:"1.5rem",visibility: "visible", opacity: 1, backgroundColor: "#f1f3f4",boxShadow: "0 0 25px rgba(0, 0, 0, 0.1)"}}>
+          <div className="p-4 rounded-xl" style={{borderRadius:"1.5rem"}}>
+            <h3 className="pl-4" style={{fontSize:"25px"}}>Machine Learning Engineer</h3>
+            <h5 className="p-4">Freelance<br />Jan 2024 - Mar 2024</h5>
+            <p className='p-4'>
+            Contributed to the development of "Real-time Accent Conversion System: Indian to US Accent".</p>
+          </div>
+        </div>
+        </div>
+
+      {/* BVIRAL */}
         <div className='grid grid-cols-1 gap-8' >
         <div className="p-0 hover:scale-105 ease-in duration-300" data-sr-id="17" style={{borderRadius:"1.5rem",visibility: "visible", opacity: 1, backgroundColor: "#f1f3f4",boxShadow: "0 0 25px rgba(0, 0, 0, 0.1)"}}>
           <div className="p-4 rounded-xl" style={{borderRadius:"1.5rem"}}>
             <h3 className="pl-4" style={{fontSize:"25px"}}>Machine Learning Intern</h3>
-            <h5 className="p-4">BVIRAL<br />June 2023 - Current</h5>
+            <h5 className="p-4">BVIRAL<br />June 2023 - Sept 2023</h5>
             <p className='p-4'>
 During my time at BVIRAL, I will be actively involved in building a deep learning pipeline for their content company. This exciting project entails developing a comprehensive system that generates relevant titles and categorizes millions of short-form videos on Instagram. As a Deep Learning Engineering Intern, my responsibilities will include designing and implementing algorithms, optimizing model performance, and collaborating with a talented team to ensure the success and effectiveness of the pipeline. I am thrilled to contribute my skills and knowledge to this project and make a significant impact in the field of content generation and categorization.</p>
           </div>
         </div>
         </div>
+      
+      {/* MLSC */}
+      <div className='grid grid-cols-1 gap-8' >
+        <div className="p-0 hover:scale-105 ease-in duration-300" data-sr-id="17" style={{borderRadius:"1.5rem",visibility: "visible", opacity: 1, backgroundColor: "#f1f3f4",boxShadow: "0 0 25px rgba(0, 0, 0, 0.1)"}}>
+          <div className="p-4 rounded-xl" style={{borderRadius:"1.5rem"}}>
+            <h3 className="pl-4" style={{fontSize:"25px"}}>Microsoft Learn Student Ambassdor</h3>
+            <h5 className="p-4">MLSC VIIT<br />June 2023 - Current</h5>
+            <p className='p-4'>Leading the Microsoft Club at Vishwakarma Institute of Information Technology Pune.</p>
+          </div>
+        </div>
+        </div>
+        
+      {/* WebDev */}
         <div className='grid grid-cols-1 gap-8' >
         <div className="p-0 hover:scale-105 ease-in duration-300" data-sr-id="17" style={{borderRadius:"1.5rem",visibility: "visible", opacity: 1, backgroundColor: "#f1f3f4",boxShadow: "0 0 25px rgba(0, 0, 0, 0.1)"}}>
           <div className="p-4 rounded-xl" style={{borderRadius:"1.5rem"}}>
@@ -33,15 +84,7 @@ During my time at BVIRAL, I will be actively involved in building a deep learnin
         </div>
         </div>
 
-        <div className='grid grid-cols-1 gap-8' >
-        <div className="p-0 hover:scale-105 ease-in duration-300" data-sr-id="17" style={{borderRadius:"1.5rem",visibility: "visible", opacity: 1, backgroundColor: "#f1f3f4",boxShadow: "0 0 25px rgba(0, 0, 0, 0.1)"}}>
-          <div className="p-4 rounded-xl" style={{borderRadius:"1.5rem"}}>
-            <h3 className="pl-4" style={{fontSize:"25px"}}>Microsoft Learn Student Ambassdor</h3>
-            <h5 className="p-4">MLSC VIIT<br />June 2023 - Current</h5>
-            <p className='p-4'>Leading the Microsoft Club at Vishwakarma Institute of Information Technology Pune.</p>
-          </div>
-        </div>
-        </div>
+
 
         </div>
         <p className='text-xl tracking-widest uppercase text-[#ff9100] p-4'>

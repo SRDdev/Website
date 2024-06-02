@@ -20,7 +20,7 @@ const Main = () => {
           <h1 className='py-1' style={{fontFamily: 'SF Pro Display, sans-serif',color:'black'}}>Shreyas Dixit</h1>
 
           <p className='py-4 text-100 sm:max-w-[78%] m-auto' >
-          UG Researcher | Deep Learning | 2x Patents | President @MLSC VIIT Pune | Former ML Intern @BVIRAL
+          UG Researcher @Artificial Intelligence Institute of South Carolina | Deep Learning | 3x Patents | President @MLSC VIIT Pune | Former ML Intern @BVIRAL
           </p>
           <div className='flex items-center justify-between max-w-[430px] m-auto py-4'>
             
